@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container flex items-center justify-between h-16 md:h-20">
+            <h1 class="relative z-30 font-semibold text-2xl">
+                Parth
+            </h1>
+            <div class="flex icen items-center flex-row-reverse md:flex-row gap-3 md:gap-12">
+                <ul id="menu" class="nav-menus translate-y-[-200%] md:translate-y-0">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </ul>
+
+                <button id="toggle-menu" class="relative z-30 p-2 md:hidden text-primary-black dark:text-primary-white">
+                    <i class="fa-solid fa-bars text-2xl w-7"></i>
+                </button>
+
+                <button id="toggle-theme" class="relative z-30 text-primary-black dark:text-primary-white">
+                    <i class="fa-solid fa-moon text-2xl w-7 text-primary-black dark:text-primary-white"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="home-section" id="home">
+            <div class="order-2 md:order-1 mt-10">
+                <h2 class="text-5xl md:text-7xl font-bold">Hi, </h2>
+                <h2 class="text-5xl md:text-7xl font-bold mt-2">
+                    I am <span class="text-primary">Parth</span>
+                </h2>
+                <h3 class="text-2xl md:text-3xl font-bold opacity-70 mt-5 mb-10">
+                    Frontend Developer
+                </h3>
+                <a href="#about" class="btn-primary">
+                    More About Me
+                </a>
+            </div>
+            <div class="container-hero-image">
+                <img class="w-full h-full object-cover opacity-90 object-left-top"
+                    src="./assets/Images/Parth (2).jpeg" alt="Profile">
+            </div>
+        </section>
+        <section class="py-32" id="about">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
+                <div class="rounded-full w-48 md:w-64 h-48 md:h-64 overflow-hidden bg-primary">
+                    <img class="w-full h-full object-cover opacity-90 object-left-top" src="./assets/Images/Parth.jpeg" alt="People">
+                </div>
+                <div class="w-full md:w-1/2 text-base md:text-lg text-center md:text-left">
+                    <h2 class="text-primary font-bold text-2xl md:text-3xl mb-3">
+                        Hi, I'm Parth
+                    </h2>
+                    <p class="mb-3 opacity-80">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat iste, placeat, consequatur a id quam sit rerum quasi, esse quidem ea sequi in cum ipsum labore! Quos recusandae iure sed! Autem inventore eum dolorum optio.
+                    </p>
+                    <p class="opacity-80">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, sunt, voluptate libero quis praesentium laboriosam, veniam fuga eius cum minima inventore quisquam temporibus! Debitis, aliquid?
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-32 text-center">
+                <h2 class="text-primary text-3xl md:text-4xl font-bold mb-14">
+                    My Skills
+                </h2>
+                <div class="flex flex-wrap items-center justify-center gap-24 md:gap-12">
+                    <div class="skill" data-text="Experience 2 Years">
+                        <img class="w-16" src="./assets/Images/HTML.png" alt="HTML">
+                    </div>
+                    <div class="skill" data-text="Experience 2 Years">
+                        <img class="w-16" src="./assets/Images/CSS.png" alt="CSS">
+                    </div>
+                    <div class="skill" data-text="Experience 2 Years">
+                        <img class="w-16" src="./assets/Images/Javascript.png" alt="Javascript">
+                    </div>
+                    <div class="skill" data-text="Experience 1 Years">
+                        <img class="w-16" src="./assets/Images/ReactJs.png" alt="ReactJs">
+                    </div>
+                    <div class="skill" data-text="Experience 1 Years">
+                        <img class="w-16" src="./assets/Images/Tailwindcss.png" alt="Tailwindcss">
+                    </div>
+                    <div class="skill" data-text="Experience 1 Years">
+                        <img class="w-16" src="./assets/Images/Vite.png" alt="Vite">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="hidden md:flex items-center justify-between gap-3 w-full">
+            <div class="bg-primary/60 h-3 w-4"></div>
+            <div class="bg-primary/60 h-3 w-4"></div>
+            <div class="bg-primary/60 h-3 w-4"></div>
+            <div class="bg-primary/60 h-3 w-4"></div>
+            <div class="bg-primary/60 h-3 w-4"></div>
+            <div class="bg-primary/60 h-3 w-4"></div>
+            <div class="bg-primary/60 h-3 w-4"></div>
+            <div class="bg-gradient-to-r from-primary/60 to-primary/0 flex-grow h-3 w-4"></div>
+        </div>
+
+        <section class="pt-32" id="portfolio">
+            <h2 class="portfolio-heading">
+                My Portfolio
+            </h2>
+            <ul class="w-full md:w-5/6 space-y-10 py-5">
+                <li class="portfolio-card">
+                    <div class="w-full md:w-1/3 h-60">
+                        <img class="h-full w-full object-cover" src="https://s3.amazonaws.com/codementor_content/2015-Aug-week3/portfolio.jpg" alt="">
+                    </div>
+                    <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                            Portfolio 1
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consectetur veniam excepturi aliquam. Optio aliquid libero enim deleniti iure! Doloribus error nobis optio ullam molestias aliquam dolorem, incidunt necessitatibus, blanditiis dolores velit, consectetur debitis fugit porro. Sequi dolor reiciendis architecto.</p>
+                        <div class="mt-8 font-semibold text-white flex items-center gap-2">
+                            <a href="#" class="portfolio-link bg-primary">
+                                <i class="fa-brands fa-github text-xl"></i>
+                                Github
+                            </a>
+                            <a href="#" class="portfolio-link bg-primary">
+                                <i class="fa-regular fa-globe text-xl"></i>
+                                Website
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-card">
+                    <div class="w-full md:w-1/3 h-60">
+                        <img class="h-full w-full object-cover" src="https://cdn.dribbble.com/users/746931/screenshots/16077352/media/f0c55523532cce82e947519d55ba46a3.png?compress=1&resize=400x300" alt="">
+                    </div>
+                    <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                            Portfolio 2
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consectetur veniam excepturi aliquam. Optio aliquid libero enim deleniti iure! Doloribus error nobis optio ullam molestias aliquam dolorem, incidunt necessitatibus, blanditiis dolores velit, consectetur debitis fugit porro. Sequi dolor reiciendis architecto.</p>
+                        <div class="mt-8 font-semibold text-white flex items-center gap-2">
+                            <a href="#" class="portfolio-link bg-primary">
+                                <i class="fa-brands fa-github text-xl"></i>
+                                Github
+                            </a>
+                            <a href="#" class="portfolio-link bg-primary">
+                                <i class="fa-regular fa-globe text-xl"></i>
+                                Website
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="portfolio-card">
+                    <div class="w-full md:w-1/3 h-60">
+                        <img class="h-full w-full object-cover" src="https://miro.medium.com/max/1400/1*zBmPieDd4eXM2ZYlNm2sXg.png" alt="">
+                    </div>
+                    <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                            Portfolio 3
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consectetur veniam excepturi aliquam. Optio aliquid libero enim deleniti iure! Doloribus error nobis optio ullam molestias aliquam dolorem, incidunt necessitatibus, blanditiis dolores velit, consectetur debitis fugit porro. Sequi dolor reiciendis architecto.</p>
+                        <div class="mt-8 font-semibold text-white flex items-center gap-2">
+                            <a href="#" class="portfolio-link bg-primary">
+                                <i class="fa-brands fa-github text-xl"></i>
+                                Github
+                            </a>
+                            <a href="#" class="portfolio-link bg-primary">
+                                <i class="fa-regular fa-globe text-xl"></i>
+                                Website
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="w-full text-center mt-40 bg-white dark:bg-primary-gray">
+        <section id="contact" class="flex flex-col gap-12 justify-center items-center py-20">
+            <h2 class="text-4xl md:text-5xl font-bold text-primary">
+                Contact
+            </h2>
+            <div class="flex flex-wrap justify-center gap-5 md:gap-10">
+                <a href="https://www.facebook.com" class="contact-link ">
+                    <i class="fa-brands fa-facebook text-3xl text-blue-500"></i>
+                </a>
+                <a href="https://www.instagram.com" class="contact-link ">
+                    <i class="fa-brands fa-instagram text-3xl text-pink-500"></i>
+                </a>
+                <a href="https://www.whatsapp.com" class="contact-link ">
+                    <i class="fa-brands fa-whatsapp text-3xl text-green-400"></i>
+                </a>
+                <a href="https://www.telegram.org" class="contact-link ">
+                    <i class="fa-brands fa-telegram text-3xl text-blue-600"></i>
+                </a>
+                <a href="https://www.twitter.com" class="contact-link ">
+                    <i class="fa-brands fa-twitter text-3xl text-blue-400"></i>
+                </a>
+            </div>
+        </section>
+        <h2 class="pb-10">Copyright &copy; 2022 - Parth Dudhatra</h2>
+    </footer>
+    
+    <script src="./assets/main.js"></script>
+    
+</body>
+</html>
