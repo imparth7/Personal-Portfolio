@@ -18,8 +18,7 @@ navLinks.forEach(navLink => {
 })
 
 function changeMenuIcon(){
-    // const isContainTranslate = menu.classList.contains('translate-y-[-200%]');
-    // const icon = isContainTranslate ? 'fa-bars' : 'fa-xmark'
+    toggleMenuIcon.classList.toggle('fa-bars')
     toggleMenuIcon.classList.toggle('fa-xmark')
 }
 
